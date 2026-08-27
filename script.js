@@ -51,6 +51,6 @@ form.addEventListener("submit", async (event) => {
     showStatus("Opening your email app…", "ok");
   } finally {
     button.disabled = false;
-    button.textContent = "Notify me";
+    button.textContent = "Join";
   }
 });
