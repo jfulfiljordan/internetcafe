@@ -65,10 +65,11 @@ h1 {
   margin-bottom: 12px;
 }
 
-p {
+.lede {
   color: var(--muted);
   font-size: 16px;
-  max-width: 28em;
+  line-height: 1.5;
+  max-width: 36em;
   margin-bottom: 36px;
 }
 
