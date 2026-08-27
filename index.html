@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>internetcafe</title>
+    <meta name="description" content="internetcafe — an automation agency." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="glow" aria-hidden="true"></div>
+
+    <main>
+      <h1>internetcafe</h1>
+      <p>We’re back.</p>
+
+      <form id="signup-form" novalidate>
+        <label class="sr-only" for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          placeholder="you@company.com"
+          required
+        />
+        <button type="submit">Notify me</button>
+      </form>
+      <p class="form-status" id="form-status" role="status" hidden></p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
